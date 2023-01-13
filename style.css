@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-image: linear-gradient(tan, black);
+    font-size: 20px;
+}
+
+aside {
+    position: fixed;
+    text-align: center;
+    background-image: linear-gradient(saddlebrown, peru);
+    height: 150px;
+    width: 50%;
+    color: magenta;
+}
+
+#nav-container {
+    display: flex;
+    justify-content: center;
+}
+
+#icon {
+    height: 70px;
+}
+
+ul {
+    margin-top: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 44px;
+}
+
+header {
+    background-image: linear-gradient(purple, brown);
+    text-align: center;
+    font-family: 'La Belle Aurore', sans-serif;
+    color: aqua;
+}
+
+section {
+    font-family: 'Bakbak One', sans-serif;
+    margin-top: 180px;
+}
+
+#facts-section {
+    background-image: linear-gradient(navy, chartreuse);
+}
+
+h2 {
+    font-family: 'La Belle Aurore', sans-serif;
+    border: 5px solid red;
+    color: burlywood;
+}
+
+#facts-container {
+    display: flex;
+}
+
+#mayo {
+    height: 300px;
+}
+
+table {
+    width: 100%;
+}
+
+#sponget {
+    height: 300px;
+}
+
+#quotes-section {
+    background-image: linear-gradient(rebeccapurple, white);
+    /* height: 350px; */
+    color: salmon;
+}
+
+#quotes-section h2 {
+    text-align: end;
+    border: 5px solid orange;
+    color: red;
+}
+
+#quotes-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "patrick quote quote quote squidward";
+}
+
+blockquote {
+    font-style: oblique;
+    grid-area: "quote";
+}
+
+#krabs {
+    height: 400px;
+    grid-area: "krabs";
+}
+
+#squidward {
+    height: 400px;
+    grid-area: "squidward";
+}
+
+#links-section {
+    background-image: linear-gradient(yellow, royalblue);
+    height: 600px;
+}
+
+#links-section h2 {
+    border: 5px dotted violet;
+    color: orange;
+}
+
+#patrick {
+    height: 300px;
+    width: 100%;
+    grid-area: "patrick";
+}
+
+#links-section li {
+    list-style: decimal;
+    text-align: center;
+    font-size: 50px;
+}
